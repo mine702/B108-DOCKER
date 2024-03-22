@@ -44,7 +44,7 @@ services:
     mem_limit: 1024m
 
   backend:
-    image: mine0702/pennypal_frontend
+    image: mine0702/pennypal-backend
     restart: unless-stopped
     container_name: app_backend
     stdin_open: true
